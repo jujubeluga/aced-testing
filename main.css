@@ -1,0 +1,78 @@
+
+nav.navbar{
+  background-color: white;
+}
+
+header {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+p.title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 80px;
+  color:#fff ;
+  font-weight: bolder;
+}
+
+p.subheading{
+  margin-top: -30px;
+  text-align: center;
+  font-size: 30px;
+  color:#fff ;
+}
+p.headings{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color:#333;
+  /*879ead*/
+}
+body {
+  background-color: #fff ;
+  background-image: linear-gradient(top, #fff , #486D88 );
+  background-image: linear-gradient(to bottom, #fff , #486D88 )
+  padding-bottom: 40px;
+}
+
+.jumbotron {
+  background: url("https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 0px;
+  height: 570px;
+}
+
+.jumbotron.second{
+  background: url("./golden-gate-bridge-1030999.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 0px;
+  height: 400px;
+}
+
+div.container{
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+button.btn {
+  background-color: #879ead ;
+  color: white;
+  outline: none;
+}
